@@ -19,3 +19,7 @@ contador2 = 1
 for producto in lista_productos:
     print(f"{contador}. {producto}")
     contador2 += 1
+
+
+for indice, valor in enumerate(lista_productos, start=1):
+    print(f"{indice}. {valor}")
