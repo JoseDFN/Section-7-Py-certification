@@ -14,3 +14,8 @@ while indice < len(lista_productos):
     print(f"{contador}. {lista_productos[indice]}")
     contador += 1
     indice += 1
+
+contador2 = 1
+for producto in lista_productos:
+    print(f"{contador}. {producto}")
+    contador2 += 1
